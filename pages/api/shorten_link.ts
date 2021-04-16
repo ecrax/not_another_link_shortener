@@ -10,7 +10,7 @@ export default async (req, res) => {
       .insertOne({ link: req.body.link });
     res.statusCode = 201;
     return res.json({
-      short_link: `${process.env.VERCEL_URL}/r/${entry.insertedId}`,
+      short_link: `nals.vercel.app/r/${entry.insertedId}`,
     });
   }
 
