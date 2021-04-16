@@ -58,7 +58,7 @@ const Home: React.FC = () => {
   return (
     <Layout>
       <Head>
-        <title>Yet Another Link Shortener</title>
+        <title>Not Another Link Shortener</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header>
@@ -115,7 +115,7 @@ const Home: React.FC = () => {
         </div>
       </Content>
       <Footer className={styles.footer}>
-        Yet Another Link Shortener (YALS) &copy; 2021
+        Not Another Link Shortener (NALS) &copy; 2021
       </Footer>
     </Layout>
   );
